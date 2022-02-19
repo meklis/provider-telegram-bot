@@ -2,14 +2,14 @@
 
 return [
     'telegram' => [
-        'api_key' => '',
-        'username' => '',
+        'api_key' => env('TELEGRAM_API_KEY'),
+        'username' => env('TELEGRAM_BOT_USERNAME'),
     ],
     'mysql' => [
-        'host'     => 'localhost',
-        'port'     => 3306, // optional
-        'user'     => 'dbuser',
-        'password' => 'dbpass',
-        'database' => 'dbname',
+        'host'     => env('DB_HOST'),
+        'port'     => env('DB_PORT'), // optional
+        'user'     => env('DB_USERNAME'),
+        'password' => env('DB_PASSWORD'),
+        'database' => env('DB_DATABASE'),
     ]
 ];
