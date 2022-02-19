@@ -1,0 +1,17 @@
+{
+  "name": "meklis/provider-telegram-bot",
+  "type": "project",
+  "require": {
+    "php": ">=7.3",
+    "vlucas/phpdotenv": "^4.1@dev",
+    "longman/telegram-bot": "*",
+    "php-di/php-di": "^6.3",
+    "monolog/monolog": "^2.2",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ProviderBot\\Core\\": "src"
+    }
+  }
+}
