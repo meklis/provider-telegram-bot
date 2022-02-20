@@ -20,6 +20,7 @@ try {
         if ($server_response->isOk()) {
             $update_count = count($server_response->getResult());
             foreach ($server_response->getResult() as $result) {
+
             }
             echo date('Y-m-d H:i:s') . ' - Processed ' . $update_count . ' updates' . "\n";
         } else {

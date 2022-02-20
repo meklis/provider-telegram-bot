@@ -1,7 +1,12 @@
+basic_messages:
+  - name: start
+    text: Я бот-помощник
+  - name: unknown_message
+    text: Неизвестное сообщение
+
 - key: hello_message
-  text: "Добро пожаловать к нам"
+  text: "{{username}}, добро пожаловать к нам "
   catch_commands:
     - /start
     - /help
-- key: unknown_message
-  text: ""
+  

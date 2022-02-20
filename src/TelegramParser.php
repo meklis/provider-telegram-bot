@@ -2,7 +2,7 @@
 
 namespace ProviderBot\Core;
 
-class TelegramMessagesLogic
+class TelegramParser
 {
     function __construct($messages = []) {
 
