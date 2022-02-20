@@ -1,0 +1,7 @@
+- key: hello_message
+  text: "Добро пожаловать к нам"
+  catch_commands:
+    - /start
+    - /help
+- key: unknown_message
+  text: ""

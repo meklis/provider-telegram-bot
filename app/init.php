@@ -10,6 +10,7 @@ set_error_handler(function ($severity, $message, $file, $line) {
     }
 });
 
+
 require __DIR__ . '/../vendor/autoload.php';
 
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
